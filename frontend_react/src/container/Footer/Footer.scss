@@ -1,3 +1,19 @@
+.text {
+  font-size: 2.75rem;
+  font-weight: 800;
+  text-align: center;
+  color: #573c56;
+  text-transform: capitalize;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 4rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 2rem;
+  }
+}
+
 .app__footer {
     flex: 1;
     width: 100%;
@@ -77,7 +93,7 @@
       margin: 0.75rem 0;
       border-radius: 10px;
       cursor: pointer;
-      background-color: var(--primary-color);
+      background-color: #a94c40;
   
       transition: all 0.3s ease-in-out;
   
@@ -87,7 +103,7 @@
         padding: 0.95rem;
         border: none;
         border-radius: 7px;
-        background-color: var(--primary-color);
+        background-color: #a94c40;
   
         font-family: var(--font-base);
         color: var(--secondary-color);
@@ -101,13 +117,18 @@
       &:hover {
         box-shadow: 0 0 25px var(--primary-color);
       }
+
+      ::placeholder {
+        color: 	#d87e79;
+        font-weight: 200;
+      }
     }
   
     button {
       padding: 1rem 2rem;
       border-radius: 10px;
       border: none;
-      background-color: var(--secondary-color);
+      background-color: 	#573c56;
   
       font-weight: 500;
       color: var(--white-color);

@@ -11,6 +11,10 @@
     background-color: var(--primary-color);
   }
   
+  .app__black{
+    background-color: #12141c;
+  }
+
   .app__container {
     width: 100%;
     min-height: 100vh;
@@ -59,7 +63,7 @@
     text-transform: capitalize;
   
     span {
-      color: var(--secondary-color);
+      color: 	#573c56;
     }
   
     @media screen and (min-width: 2000px) {
@@ -109,9 +113,9 @@
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: var(--white-color);
+      background-color: 	#a94c40;
       margin: 0.25rem 0;
-      border: 1px solid var(--lightGray-color);
+      border: 1px solid #d87e79;
   
       display: flex;
       justify-content: center;
@@ -122,12 +126,12 @@
       svg {
         width: 15px;
         height: 15px;
-        color: var(--gray-color);
+        color: #d87e79;
       }
   
       &:hover {
-        background-color: var(--secondary-color);
-        border-color: var(--secondary-color);
+        background-color: #d87e79;
+        border-color: #a94c40;
   
         svg {
           color: var(--white-color);
